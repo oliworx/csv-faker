@@ -2,15 +2,25 @@ require 'ffaker'
 
 line = ''
 delimiter = ';'
-# line << FFaker::Name.name       #=> "Christophe Bartell"
-# line << delimiter
+i = 1
 
-line << FFaker::Name.first_name       #=> "Christoph"
-line << delimiter
 
-line << FFaker::Name.last_name       #=> "Bartell"
-line << delimiter
+while i <= 5 do
+    # line << FFaker::Name.name       #=> "Christophe Bartell"
+    # line << delimiter
 
-line << FFaker::Internet.email  #=> "kirsten.greenholt@corkeryfisher.info"
+    line << i.to_s
+    line << delimiter
 
-puts line
+    line << FFaker::Name.first_name       #=> "Christoph"
+    line << delimiter
+
+    line << FFaker::Name.last_name       #=> "Bartell"
+    line << delimiter
+
+    line << FFaker::Internet.email  #=> "kirsten.greenholt@corkeryfisher.info"
+
+    puts line
+    line = ''
+    i += 1
+end
