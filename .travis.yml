@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+ - 2.0
+ - 2.1
+ - 2.2
+ - 2.3
+before_script:
+  - sudo gem install tf ffaker
+
+script: `which tf` make-csv_comment_test.sh
