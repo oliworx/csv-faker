@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'ffaker'
 
 # init random generator to get reproducible data
