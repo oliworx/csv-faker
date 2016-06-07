@@ -1,3 +1,6 @@
+machine:
+  ruby:
+    version: ruby-2.1.9
 test:
   override:
     - bundle exec tf make-csv_comment_test.sh
