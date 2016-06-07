@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffaker (2.2.0)
+    session (3.2.0)
+    tf (0.4.3)
+      session (~> 3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ffaker
+  tf
+
+BUNDLED WITH
+   1.12.5
