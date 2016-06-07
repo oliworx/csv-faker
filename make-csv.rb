@@ -1,14 +1,18 @@
 require 'ffaker'
 
 # init random generator to get reproducible data
-srand(1000)
+srand(12345)
 
 line = ''
 delimiter = ';'
 i = 1
+max = ARGV[0].to_i
 
+if max < 1 
+    abort 'usage: ruby make-csv.rb 100'
+end
 
-while i <= 5 do
+while i <= max do
 
     line << i.to_s
     line << delimiter
