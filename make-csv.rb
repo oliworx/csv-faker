@@ -54,9 +54,12 @@ while i <= max do
     line << x.round.to_s
     line << delimiter
 
-    y = randomNormalDist(x-100, 7, 40, 180)             # could be body weight
+    y = randomNormalDist(x-100, 10, 40, 180)             # could be body weight
     line << y.round.to_s
     line << delimiter
+
+    date = Date.today - rand(365*70) - 16*365            # could be birthday
+    line << date.to_s
 
     puts line
     line = ''
