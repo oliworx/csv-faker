@@ -21,6 +21,7 @@ Test are implemented with  the rvm/tf Testing Framework
 (<https://github.com/rvm/tf>)
 
 To run the  tests:
+
     bundle exec tf make-csv_comment_test.sh
 
 ## License
