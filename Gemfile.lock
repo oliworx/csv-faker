@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ffaker (2.2.0)
+    rubystats (0.2.4)
     session (3.2.0)
     tf (0.4.3)
       session (~> 3.1)
@@ -11,6 +12,7 @@ PLATFORMS
 
 DEPENDENCIES
   ffaker
+  rubystats
   tf
 
 BUNDLED WITH
