@@ -25,4 +25,18 @@ ruby make-csv.rb 10
 
 ./make-csv.rb 100 | tail -n 1
 # match[stdout]=/^100/
+# match[stdout]=/1962-05-03$/
+
+./make-csv.rb 100 | cut -f 10 -d';' | sort -n | head -n1
+# match=/^40$/
+
+./make-csv.rb 100 | cut -f 10 -d';' | awk '{a+=$1} END{print a/NR}'
+# match=/^75.54/
+
+./make-csv.rb 100 | cut -f 9 -d';' | awk '{a+=$1} END{print a/NR}'
+# match=/^175.86$/
+
+## performance test: should make 5000 lines in <1s
+/usr/bin/time --format "%U" ./make-csv.rb 5000 > /dev/null
+# match[stderr]=/^0/
 
