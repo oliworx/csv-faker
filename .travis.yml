@@ -3,9 +3,10 @@ rvm:
   - 2.0
   - 2.1
   - 2.2
+  - 2.3
 
 install:
   - bundle install
 
 script: 
-  - bundle exec tf make-csv_comment_test.sh
+  - bundle exec tf make-csv_comment_test.sh --text
