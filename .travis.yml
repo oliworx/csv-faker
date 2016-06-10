@@ -5,6 +5,9 @@ rvm:
   - 2.2
   - 2.3.0
 
+notifications:
+  email: false
+
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y time
