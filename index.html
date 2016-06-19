@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CSV-Faker by oliworx</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">CSV-Faker</h1>
+        <p class="header">a tool to generate csv-files filled with faked data</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/oliworx/csv-faker/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/oliworx/csv-faker/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/oliworx/csv-faker">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/oliworx">oliworx</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="csv-faker" class="anchor" href="#csv-faker" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>csv-faker</h1>
+
+<p>Travis CI: <a href="https://travis-ci.org/oliworx/csv-faker"><img src="https://travis-ci.org/oliworx/csv-faker.svg?branch=master" alt="Build Status"></a>
+Circle CI: <a href="https://circleci.com/gh/oliworx/csv-faker"><img src="https://circleci.com/gh/oliworx/csv-faker.svg?style=svg" alt="CircleCI"></a></p>
+
+<p>I made this little Ruby script to generate some sample data for database benchmarks.</p>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+
+<ul>
+<li>clone the repo </li>
+<li>install gems: <code>bundle install</code> </li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>To make a CSV-File with 1000 lines:</p>
+
+<pre><code>make-csv.rb 1000 &gt; sample.csv
+</code></pre>
+
+<h2>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Testing</h2>
+
+<p>Test are implemented with  the rvm/tf Testing Framework
+(<a href="https://github.com/rvm/tf">https://github.com/rvm/tf</a>)</p>
+
+<p>To run the  tests:</p>
+
+<pre><code>bundle exec tf make-csv_comment_test.sh
+</code></pre>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT License: <a href="https://kurmis.mit-license.org">https://kurmis.mit-license.org</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "CSV-Faker",
+  "tagline": "a tool to generate csv-files filled with faked data",
+  "body": "# csv-faker\r\nTravis CI: [![Build Status](https://travis-ci.org/oliworx/csv-faker.svg?branch=master)](https://travis-ci.org/oliworx/csv-faker)\r\nCircle CI: [![CircleCI](https://circleci.com/gh/oliworx/csv-faker.svg?style=svg)](https://circleci.com/gh/oliworx/csv-faker)\r\n\r\nI made this little Ruby script to generate some sample data for database benchmarks.\r\n\r\n## Setup\r\n\r\n* clone the repo \r\n* install gems: `bundle install` \r\n\r\n## Usage\r\n\r\nTo make a CSV-File with 1000 lines:\r\n\r\n    make-csv.rb 1000 > sample.csv\r\n\r\n## Testing\r\n\r\nTest are implemented with  the rvm/tf Testing Framework\r\n(<https://github.com/rvm/tf>)\r\n\r\nTo run the  tests:\r\n\r\n    bundle exec tf make-csv_comment_test.sh\r\n\r\n## License\r\nMIT License: <https://kurmis.mit-license.org>\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
