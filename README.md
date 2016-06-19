@@ -1,7 +1,3 @@
-# csv-faker
-Travis CI: [![Build Status](https://travis-ci.org/oliworx/csv-faker.svg?branch=master)](https://travis-ci.org/oliworx/csv-faker)
-Circle CI: [![CircleCI](https://circleci.com/gh/oliworx/csv-faker.svg?style=svg)](https://circleci.com/gh/oliworx/csv-faker)
-
 I made this little Ruby script to generate some sample data for database benchmarks.
 
 ## Setup
@@ -23,6 +19,9 @@ Test are implemented with  the rvm/tf Testing Framework
 To run the  tests:
 
     bundle exec tf make-csv_comment_test.sh
+
+[![Build Status](https://travis-ci.org/oliworx/csv-faker.svg?branch=master)](https://travis-ci.org/oliworx/csv-faker)
+[![CircleCI](https://circleci.com/gh/oliworx/csv-faker.svg?style=svg)](https://circleci.com/gh/oliworx/csv-faker)
 
 ## License
 MIT License: <https://kurmis.mit-license.org>
