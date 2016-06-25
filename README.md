@@ -55,6 +55,7 @@ To run the  tests:
 [![Build Status](https://travis-ci.org/oliworx/csv-faker.svg?branch=master)](https://travis-ci.org/oliworx/csv-faker)
 [![CircleCI](https://circleci.com/gh/oliworx/csv-faker.svg?style=svg)](https://circleci.com/gh/oliworx/csv-faker)
 [![Build Status](https://semaphoreci.com/api/v1/oliworx/csv-faker/branches/master/badge.svg)](https://semaphoreci.com/oliworx/csv-faker)
+[![Codeship Status for oliworx/csv-faker](https://codeship.com/projects/00d8f720-1d45-0134-e8d6-2621c61f771d/status?branch=master)](https://codeship.com/projects/159997)
 
 ## License
 MIT License: <https://kurmis.mit-license.org>
