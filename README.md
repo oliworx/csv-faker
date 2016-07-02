@@ -28,10 +28,10 @@ To customize the columns to your own needs, just have a look at the [FFaker refe
 
 ## Setup
 
-* clone the repo `git clone https://github.com/oliworx/csv-faker.git`
-* go to the project directory: `cd csv-faker`
+* clone the repo ```git clone https://github.com/oliworx/csv-faker.git```
+* go to the project directory: ```cd csv-faker```
 * you will need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and  [Bundler](http://bundler.io/#getting-started)
-* install the required gems: `bundle install` 
+* install the required gems: ```bundle install``` 
 
 ## Usage
 
@@ -47,6 +47,8 @@ If this should fail, try
 
 Test are implemented with  the rvm/tf Testing Framework
 (<https://github.com/rvm/tf>)
+
+For the performance test the ```time``` package is needed, make sure it is installed running ```which time``` or install it with ```sudo apt-get install time```
 
 To run the  tests:
 
