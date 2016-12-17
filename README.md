@@ -28,6 +28,9 @@ To customize the columns to your own needs, just have a look at the [FFaker refe
 
 ## Setup
 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a8b23e4eefb6481e931c410f205787ef)](https://www.codacy.com/app/kurmis/csv-faker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oliworx/csv-faker&amp;utm_campaign=badger)
+
 * clone the repo ```git clone https://github.com/oliworx/csv-faker.git```
 * go to the project directory: ```cd csv-faker```
 * you will need [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and  [Bundler](http://bundler.io/#getting-started)
