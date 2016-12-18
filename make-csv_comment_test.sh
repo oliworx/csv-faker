@@ -25,7 +25,7 @@ ruby make-csv.rb 10
 
 ./make-csv.rb 100 | tail -n 1
 # match[stdout]=/^100/
-# match[stdout]=/1962-05-[0-3][0-9]$/
+# match[stdout]=/1962-[0-1][0-9]-[0-3][0-9]$/
 
 ./make-csv.rb 100 | cut -f 10 -d';' | sort -n | head -n1
 # match=/^40$/
