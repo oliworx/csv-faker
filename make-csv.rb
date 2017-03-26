@@ -4,7 +4,7 @@ require 'ffaker'
 require 'rubystats'
 
 # init random generator to get reproducible data
-srand(12345)
+FFaker::Random.seed = 12345
 
 line = ''
 delimiter = ';'
