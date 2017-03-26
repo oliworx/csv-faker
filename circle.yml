@@ -4,3 +4,7 @@ machine:
 test:
   override:
     - bundle exec tf make-csv_comment_test.sh --text
+general:
+  branches:
+    ignore:
+      - gh-pages
