@@ -1,0 +1,8 @@
+title: CSV-Faker
+description: a tool to generate csv-files filled with faked data
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-dinky
+
+gems:
+  - jekyll-mentions
